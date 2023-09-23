@@ -1,0 +1,24 @@
+There are four types of responsiveness in CSS
+
+Media Queries
+
+CSS Grid
+
+CSS Flexbox
+        -- flex-direction : row; goes inline;
+
+External Frameworks like Bootstrap.
+
+
+Flex Order
+
+.green {
+    order: 1;  //  -1 will be the last element. the higher number will be first. 
+}
+
+align-items: flex-start;
+height: 70vh;   // viewport height;
+
+flex-wrap : wrap;
+align-content:center;
+height:60vh;5

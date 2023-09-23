@@ -1,0 +1,133 @@
+@media (max-width: 600px) {
+
+
+}
+
+
+body {
+    background-image: url(https://images.pexels.com/photos/13793729/pexels-photo-13793729.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  160px 330px 330px;
+    gap: 30px;
+    border: 3px solid gold;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 230px 330px 330px;
+    border: 3px solid gold;
+}
+
+.first {
+    grid-column: span 2;
+    
+
+}
+
+#first_id{
+    background-color: transparent;
+    background-image: none;
+}
+
+.card {
+    background-image: url(https://images.pexels.com/photos/18099920/pexels-photo-18099920/free-photo-of-woman-posing-in-front-of-a-modern-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+ 
+    background-repeat: no-repeat;
+  
+    background-position: center; 
+    background-size: cover;
+}
+
+
+.main-div {
+    display: flex;
+}
+.mid-div {
+    flex: .6;
+}
+
+h1, h2 {
+    color: white;
+    text-shadow: 3px 1px blue;
+}
+
+.main-header {
+    flex:.4;
+    color: white;
+    text-shadow: 3px 1px rgb(1, 17, 53);
+    background-color: rgba(0, 255, 255, 0.66);
+    outline: 3px solid black;
+}
+
+.link-buttons {
+    text-align: right;
+    font-size: 2em;
+    margin-top: 20px;
+    flex: 1;
+    gap: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,70,0.5215219877013305) 35%, rgba(0,212,255,1) 100%);
+    outline: 3px solid orange;
+    border-radius: 50% 33% 33% 50%;
+}
+
+a {
+    color: white;
+    text-shadow: 3px 1px black;
+}
+
+a:visited {
+    color: rgb(4, 240, 4);
+    text-shadow: 3px 1px black;
+  }
+
+.grid-container3 {
+    display: grid;
+    grid-template: 100px 200px / 400px 800px;
+    grid-auto-rows: 300px;
+   
+}
+
+.card3 {
+    background-image: url(https://images.pexels.com/photos/13280776/pexels-photo-13280776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+ 
+    background-repeat: no-repeat;
+    background-size: 200px;
+    
+    border: 3px solid gold;
+}
+
+.grid-container4 {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns:  1fr 1fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.item {
+    outline: 3px 1px gold;
+    background-color: rgba(0, 255, 255, 0.313);
+    font-size: 3em;
+    color: rgb(2, 2, 2);
+}
+
+.cowboy {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.coffee {
+    order: 1;
+    grid-row-start: 3;
+
+}
